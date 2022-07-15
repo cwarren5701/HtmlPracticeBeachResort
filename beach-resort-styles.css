@@ -1,0 +1,70 @@
+body {
+    background-image: url("images/bg-pattern.jpg");
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .75em;
+    background-image: url("images/bg-navigation.png");
+    text-decoration: auto;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    width: 120px
+}
+
+li a:hover {
+    color: bisque;
+    background: #555;
+}
+h1{
+    text-align: left;
+    font-variant: small-caps;
+    color: blue;
+}
+
+p {
+    white-space: preline;
+    text-align: center;
+}
+
+/* li {
+    float: left;
+    list-style: none;
+} */
+
+li b {
+    display: block;
+    padding: 1em;
+    background-image: url("images/");
+    text-decoration: auto;
+    color: rgb(88, 86, 86);
+    font-variant: small-caps;
+    background: rgb(167, 165, 165);
+    writing-mode: horizontal-tb;
+    width: 120px;
+    text-align: center;
+}
+
+li b:hover {
+    color: white;
+}
+
+p {
+    white-space: preline;
+    text-align: center;
+    color:rgb(88, 86, 86)
+}
