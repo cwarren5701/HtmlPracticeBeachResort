@@ -2,31 +2,72 @@ body {
     background-image: url("images/bg-pattern.jpg");
 }
 
-img {
+.content {
+    max-width: 866px;
+    /* border: 1px solid; */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#beach {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0;
+    width:100%;
 }
 
-li {
-    float: left;
+.bottom-menu {
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
     list-style: none;
+    width:100%;
+    background-color: #777;
 }
 
-li a {
+.bottom-menu a {
+    display: block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #777;
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    min-width: 70px;
+}
+
+.bottom-menu a:hover {
+    background-color: #555;
+}
+
+.top-menu {
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+}
+
+.top-menu li {
+    list-style: none;
+    flex: 1;
+}
+
+.top-menu a {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: .75em;
+    padding-top:10px;
+    padding-bottom:10px;
     background-image: url("images/bg-navigation.png");
     text-decoration: auto;
     color: white;
     font-variant: small-caps;
     text-align: center;
-    width: 120px
+    width:100%;
 }
 
-li a:hover {
+.top-menu a:hover {
     color: bisque;
     background: #555;
 }
@@ -38,33 +79,22 @@ h1{
 
 p {
     white-space: preline;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5em;
+    
 }
-
+#copyright {
+    text-align: center;
+    color: #777;
+    font-size: .8em;
+}
 /* li {
     float: left;
     list-style: none;
 } */
 
-li b {
-    display: block;
-    padding: 1em;
-    background-image: url("images/");
-    text-decoration: auto;
-    color: rgb(88, 86, 86);
-    font-variant: small-caps;
-    background: rgb(167, 165, 165);
-    writing-mode: horizontal-tb;
-    width: 120px;
-    text-align: center;
-}
 
-li b:hover {
-    color: white;
-}
-
-p {
+/* p {
     white-space: preline;
     text-align: center;
-    color:rgb(88, 86, 86)
-}
+    color:rgb(88, 86, 86) */
