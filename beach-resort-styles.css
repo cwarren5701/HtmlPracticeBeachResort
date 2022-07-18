@@ -4,32 +4,31 @@ body {
 
 .content {
     max-width: 866px;
-    /* border: 1px solid; */
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #beach {
     display: block;
-    margin:0;
-    width:100%;
+    margin: 0;
+    width: 100%;
 }
 
 .bottom-menu {
-    margin:0;
-    padding:0;
-    margin-top:20px;
-    margin-bottom:20px;
-    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
     list-style: none;
-    width:100%;
+    width: 100%;
     background-color: #777;
 }
 
 .bottom-menu a {
     display: block;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #777;
     text-decoration: none;
     color: white;
@@ -43,11 +42,11 @@ body {
 }
 
 .top-menu {
-    margin:0;
-    padding:0;
-    margin-top:20px;
-    margin-bottom:20px;
-    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 .top-menu li {
@@ -57,21 +56,22 @@ body {
 
 .top-menu a {
     display: inline-block;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-image: url("images/bg-navigation.png");
     text-decoration: auto;
     color: white;
     font-variant: small-caps;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 .top-menu a:hover {
     color: bisque;
     background: #555;
 }
-h1{
+
+h1 {
     text-align: left;
     font-variant: small-caps;
     color: blue;
@@ -81,20 +81,88 @@ p {
     white-space: preline;
     text-align: left;
     line-height: 1.5em;
-    
+
 }
+
 #copyright {
     text-align: center;
     color: #777;
     font-size: .8em;
 }
-/* li {
-    float: left;
-    list-style: none;
-} */
 
+.page-content {
+    background-color: white;
+    padding: 10px;
+}
 
-/* p {
-    white-space: preline;
+.page-content p {
+    line-height: 2em;
+}
+
+.page-content h1,
+h2 {
+    color: lightseagreen;
+}
+
+#bottom-about {
+    display: flex;
+}
+
+#left {
+    flex: 2;
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+
+#right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.rooms-content {
+    background-color: white;
+    max-width: 866px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    /* max-height: 1200px; */
+}
+
+.rooms-content h1, h3 {
+    color: lightseagreen;
+
+}
+
+.rooms-content p {
+    line-height: 2em;
+}
+
+#room {
+    display: flex;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#image {
+    flex: 1
+}
+
+#image-image {
+    border: 1px solid;
+    border-color: lightseagreen
+}
+
+#description {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#rate {
+    margin-top: 109.75px;
     text-align: center;
-    color:rgb(88, 86, 86) */
+    color: lightseagreen;
+    border: 1px solid;
+    padding: 2px;
+    border-color: black;
+    width: 30%
+}
