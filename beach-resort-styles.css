@@ -125,12 +125,11 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    /* max-height: 1200px; */
 }
 
-.rooms-content h1, h3 {
+.rooms-content h1,
+h3 {
     color: lightseagreen;
-
 }
 
 .rooms-content p {
@@ -165,4 +164,20 @@ h2 {
     padding: 2px;
     border-color: black;
     width: 30%
+}
+.food-content{
+    background-color: white;
+    max-width: 866px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.food-content h1 {
+    color: seagreen;
+}
+
+#row {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
