@@ -1,5 +1,7 @@
 body {
     background-image: url("images/bg-pattern.jpg");
+    background-repeat: repeat-x;
+    background-color: rgb(255, 251, 191);
 }
 
 .content {
@@ -165,7 +167,8 @@ h3 {
     border-color: black;
     width: 30%
 }
-.food-content{
+
+.food-content {
     background-color: white;
     max-width: 866px;
     margin-left: auto;
@@ -180,4 +183,91 @@ h3 {
 #row {
     padding-top: 20px;
     padding-bottom: 40px;
+
+}
+
+#row img {
+    width: 866px
+}
+
+
+#giant-space {
+    height: 5000px;
+}
+
+.contact-content {
+    background-color: white;
+    max-width: 866px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    border: 1pt solid;
+    padding: 20px;
+    flex: 1.2;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(134, 88, 3);
+}
+
+.input-wrapper label {
+    min-width: 100px;
+    margin-right: 20px;
+}
+
+.input-wrapper input {
+    flex: 1;
+}
+
+.send-button {
+    width: 60px;
+    margin-right: auto;
+    margin-top: 16px;
+    background-color: rgb(21, 121, 93);
+    color:beige;
+}
+
+#form-alert {
+    color: red;
+    font-weight: bold;
+}
+
+.contact-content h1 {
+    color: seagreen
+}
+
+#info-header-row {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(134, 88, 3);
+}
+
+#info-description-row {
+    color: rgb(134, 88, 3);
+}
+
+.contact-content h2 {
+    margin-top: 0;
+}
+
+#everything {
+    display: flex;
+    padding-bottom: 585px;
+    padding-top: 1px;
 }
